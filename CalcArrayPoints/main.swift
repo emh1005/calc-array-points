@@ -9,7 +9,7 @@
 import Foundation
 
 //Part 1
-/*func mathOperation (left: Int, right: Int, operation: (Int, Int) -> Int) -> Int {
+func mathOperation (left: Int, right: Int, operation: (Int, Int) -> Int) -> Int {
     return operation(left, right)
 }
 
@@ -27,10 +27,9 @@ func multiply(left: Int, right: Int) -> Int {
 
 func divide(left: Int, right: Int) -> Int {
     return left / right
-}*/
+}
 
 //Part 2
-/*
 func reduce (array: Array<Int>, operation: (Array<Int>) -> Int) -> Int {
     return operation(array)
 }
@@ -71,55 +70,59 @@ func count (array: Array<Int>) -> Int {
     }
     return result
 }
-*/
 
 //Part 3: tubles
-/*
 func add (p1: (Int, Int), p2: (Int, Int)) -> (Int, Int) {
     return (p1.0 + p2.0, p1.1 + p2.1)
 }
 
 func subtract (p1: (Int, Int), p2: (Int, Int)) -> (Int, Int) {
     return (p1.0 - p2.0, p1.1 - p2.1)
-}*/
+}
 
-//Part 3: Int
-/*
+//Part 3: int
 func add (p1: Dictionary<String, Int>, p2: Dictionary<String, Int>) -> Dictionary<String, Int>? {
     return [
         "x" : p1["x"]! + p2["x"]!,
         "y" : p1["y"]! + p2["y"]!
     ]
 }
+
 func subtract (p1: Dictionary<String, Int>, p2: Dictionary<String, Int>) -> Dictionary<String, Int>? {
     return [
         "x" : p1["x"]! - p2["x"]!,
         "y" : p1["y"]! - p2["y"]!
     ]
-}*/
+}
 
 //Part 3: double
-func add (p1: Dictionary<String, Double>, p2: Dictionary<String, Double>) -> Dictionary<String, Double>? {
-    return [
-        "x" : p1["x"]! + p2["x"]!,
-        "y" : p1["y"]! + p2["y"]!
-    ]
+        let nilEntryDict : Dictionary<String, Double>? = nil
+func add (p1: Dictionary<String, Double>?, p2: Dictionary<String, Double>?) -> Dictionary<String, Double>? {
+    if p1 != nil && p2 != nil {
+        if p1!["x"] != nil && p1!["y"] != nil && p2!["x"] != nil && p2!["y"] != nil {
+            return [
+                "x" : p1!["x"]! + p2!["x"]!,
+                "y" : p1!["y"]! + p2!["y"]!
+            ]
+        } else {
+            return nil
+        }
+    } else {
+        return nil
+    }
 }
-func subtract (p1: Dictionary<String, Double>, p2: Dictionary<String, Double>) -> Dictionary<String, Double>? {
-    return [
-        "x" : p1["x"]! - p2["x"]!,
-        "y" : p1["y"]! - p2["y"]!
-    ]
+
+func subtract (p1: Dictionary<String, Double>?, p2: Dictionary<String, Double>?) -> Dictionary<String, Double>? {
+    if p1 != nil && p2 != nil {
+        if p1!["x"] != nil && p1!["y"] != nil && p2!["x"] != nil && p2!["y"] != nil {
+            return [
+                "x" : p1!["x"]! - p2!["x"]!,
+                "y" : p1!["y"]! - p2!["y"]!
+            ]
+        } else {
+            return nil
+        }
+    } else {
+        return nil
+    }
 }
-//print (dictionaryIntTest1)
-//print (add(p1: dictionaryIntTest1, p2: dictionaryIntTest2)!)
-
-
-
-
-
-
-
-
-
-

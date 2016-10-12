@@ -10,13 +10,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../CalcArrayPointsUnitTests.swift"
-            timestampString = "497853834.871797"
+            timestampString = "497908865.193551"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "CalcArrayPointsUnitTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CalcArrayPointsUnitTests.swift"
+            timestampString = "497908865.193551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
             endingLineNumber = "41"
-            landmarkName = "CalcArrayPointsUnitTests"
-            landmarkType = "3">
+            landmarkName = "testCalcGeneric()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,27 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../CalcArrayPointsUnitTests.swift"
-            timestampString = "497854755.960526"
+            timestampString = "497908865.193551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "CalcArrayPointsUnitTests"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../CalcArrayPointsUnitTests.swift"
-            timestampString = "497855167.165872"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "CalcArrayPointsUnitTests"
             landmarkType = "3">
          </BreakpointContent>
@@ -58,11 +58,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CalcArrayPoints/main.swift"
-            timestampString = "497859537.322796"
+            timestampString = "497908826.493823"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54">
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "add(array:)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -72,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../CalcArrayPointsUnitTests.swift"
-            timestampString = "497856933.910342"
+            timestampString = "497908865.193551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "CalcArrayPointsUnitTests"
             landmarkType = "3">
          </BreakpointContent>
@@ -88,13 +90,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../CalcArrayPointsUnitTests.swift"
-            timestampString = "497856973.573077"
+            timestampString = "497908865.193551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "CalcArrayPointsUnitTests"
-            landmarkType = "3">
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "testArrayFun()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -104,11 +106,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CalcArrayPoints/main.swift"
-            timestampString = "497859453.012347"
+            timestampString = "497908826.493823"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101">
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "add(p1:p2:)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -118,11 +122,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CalcArrayPoints/main.swift"
-            timestampString = "497864131.155472"
+            timestampString = "497908826.493823"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136">
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "add(p1:p2:)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -132,25 +138,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CalcArrayPoints/main.swift"
-            timestampString = "497864131.155472"
+            timestampString = "497925079.791488"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CalcArrayPoints/main.swift"
-            timestampString = "497864131.155472"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116">
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "subtract(p1:p2:)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -160,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../CalcArrayPointsUnitTests.swift"
-            timestampString = "497860570.109239"
+            timestampString = "497908865.193551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "testPoints()"
             landmarkType = "7">
          </BreakpointContent>
